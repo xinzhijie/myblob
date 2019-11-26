@@ -5,7 +5,7 @@
     .copyright!= `&copy;${theme.since} - ${nowYear} By ${config.author}`
   else
     .copyright!= `&copy;${nowYear} By ${config.author}`
-  if theme.footer_copyright.enable
+  //if theme.footer_copyright.enable
     .framework-info
       span= _p('footer.driven') + ' '
       a(href='http://hexo.io')
@@ -14,9 +14,9 @@
       span= _p('footer.theme') + ' '
       a(href='https://github.com/jerryc127/hexo-theme-butterfly')
         span Butterfly
-  if theme.footer_custom_text
+  //if theme.footer_custom_text
     .footer_custom_text!=`${theme.footer_custom_text}`   
-  if theme.ICP.enable
+  //if theme.ICP.enable
     .icp
       a(href=theme.ICP.url)
         if theme.ICP.icon
