@@ -73,7 +73,9 @@ algolia_search:
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
+  hits:
+    per_page: 6
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
@@ -101,7 +103,7 @@ google_analytics:
 # Post info settings
 # ---------------
 # avatar: /img/avatar.png
-avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
+avatar: http://seopic.699pic.com/photo/50007/0704.jpg_wh1200.jpg
 
 # the banner image of index
 top_img: https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
@@ -253,12 +255,12 @@ qihu_site_verification:
 
 # 友情鏈接界面設置
 Flink:
-  headline: 友情鏈接
+  headline: 友情链接
   info_headline: 我的Blog資料
-  name: Blog 名字： JerryC
-  address: Blog 地址： https://jerryc.me/
+  name: Blog 名字： limc
+  address: Blog 地址： https://dayday-up.netlify.com/
   avatar: Blog 頭像： https://jerryc.me/img/avatar.png
-  info: Blog 簡介： 今日事,今日畢
+  info: Blog 簡介： 今日事,今日毕
   comment: 如果需要交換友鏈,請留言
 
 # 打賞按鈕
@@ -458,7 +460,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 11/26/2019 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
@@ -468,7 +470,7 @@ translate:
   # 默認按鈕顯示文字
   default: 繁
   #网站默认语言，1: 繁體中文, 2: 简体中文
-  defaultEncoding: 2
+  defaultEncoding: 1
   #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
   translateDelay: 0
   #博客网址
