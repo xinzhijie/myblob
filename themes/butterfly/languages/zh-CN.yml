@@ -2,9 +2,9 @@ sidebar:
   catalog: 目录
   have_read: 你已经读了
 
-footer:
-  driven: 驱动
-  theme: 主题
+# footer:
+  # driven: 驱动
+  # theme: 主题
 
 copy:
   success: 复制成功
@@ -69,7 +69,8 @@ aside:
     site_uv_name: 本站访客数
     site_pv_name: 本站总访问量
 
-donate: 打赏
+
+# donate: 打赏
 share: 分享
 bookmark:
   title: 添加书签
