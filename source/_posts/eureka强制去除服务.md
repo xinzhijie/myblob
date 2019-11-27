@@ -1,0 +1,10 @@
+```
+http://eureka:PTRkygl413@10.27.213.167:8761/eureka/apps/esp-application/esp-application:10.122.163.102:8020
+```
+method：delete
+eureka:账号
+PTRkygl413：密码
+10.27.213.167:ip
+8761：端口
+esp-application：注册名
+esp-application:10.122.163.102:8020：服务名
