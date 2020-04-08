@@ -1,6 +1,6 @@
 ---
-title: leetcode 数字翻转.
-date: 2020-04-07 09:09:09
+title: leetcode 数字翻转
+date: 2020-04-07
 
 ---
 
