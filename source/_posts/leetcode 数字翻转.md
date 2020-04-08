@@ -1,6 +1,9 @@
 ---
+title: leetcode 数字翻转.md
 date: 2020-04-08 00:43:29
+
 ---
+
 ```
 public int reverse(int x) {
         int result = 0;
